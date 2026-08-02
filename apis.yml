@@ -1,8 +1,16 @@
 aid: wag
 name: Wag!
-description: Wag! is a company surfaced as a portfolio company of battery-ventures, bullpen-capital, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Wag! is a US pet-care marketplace that connects dog and pet owners with local,
+  background-checked caregivers for on-demand and scheduled dog walking, drop-in
+  visits, pet sitting, boarding, daycare, and 24/7 vet chat. Operating across
+  5,300+ cities in all 50 states, the platform has completed more than 16 million
+  services and is delivered primarily through its iOS and Android consumer apps.
+  Wag! (Wag Labs, Inc.) is backed by Battery Ventures, Bullpen Capital, and
+  General Catalyst. As of July 2026 Wag! exposes no public developer API or
+  documented partner API; its production API hosts (prod-*-api.wagwalking.com)
+  are internal mobile-app backends. This profile captures the company's public
+  security and identity surface pending any future developer program.
 url: https://raw.githubusercontent.com/api-evangelist/wag/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +20,30 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://wagwalking.com/favicon.ico
 tags:
 - Company
+- Pet Care
+- Dog Walking
+- Marketplace
+- On-Demand Services
+- Consumer
+- Mobile Apps
+- Pet Sitting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://wagwalking.com
+- type: Blog
+  url: https://wagwalking.com/daily
+- type: Support
+  url: https://support.wagwalking.com/
+- type: HelpCenter
+  url: https://help.wagwalking.com
+- type: PrivacyPolicy
+  url: https://safety.wagwalking.com/privacy
+- type: TermsOfService
+  url: https://safety.wagwalking.com/terms
+- type: GitHubOrganization
+  url: https://github.com/waglabs
+- type: Security
+  url: https://wagwalking.com/responsible-disclosure
+- type: VulnerabilityDisclosure
+  url: security/wag-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/wag-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
